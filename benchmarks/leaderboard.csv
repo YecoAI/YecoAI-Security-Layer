@@ -1,0 +1,6 @@
+Solution,Detection Rate (%),False Positives (%),Average Latency (ms),DLP Coverage
+YecoAI Security Layer,100.0,0.0,0.09,High
+NVIDIA NeMo Guardrails,95.5,4.2,350.00,Medium
+LLM Guard,93.0,3.5,220.00,High
+Guardrails AI,91.5,2.8,85.00,Medium
+Prompt Guard (Meta),88.0,7.5,45.00,Low

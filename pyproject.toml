@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yecoai-security-layer"
+version = "1.0.0"
+description = "Deterministic, low-latency heuristic security filter for LLM inputs and outputs"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "YecoAI", email = "marco.n@yecoai.com" }
+]
+
+keywords = ["ai", "llm", "safety", "security", "heuristics"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+langchain = ["langchain-core", "langchain-openai"]
+llamaindex = ["llama-index-core", "llama-index-llms-openai"]
+api = ["openai"]
+fastapi = ["fastapi", "starlette"]
+all = ["langchain-core", "langchain-openai", "llama-index-core", "llama-index-llms-openai", "openai", "fastapi", "starlette"]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://www.yecoai.com"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
