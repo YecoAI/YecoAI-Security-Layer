@@ -1,11 +1,11 @@
-YecoAI Mini-LLM Cognitive Layer 
-Copyright © 2026 YecoAI 
+YecoAI Security Layer
+Copyright © 2026 YecoAI
 
-This project includes a cognitive protection layer for LLM systems 
-(anti-loop, amnesia detection, semantic degradation guards). 
+This project includes a deterministic, low-latency heuristic security filter for LLM systems
+(Asimov rules injection, context-aware n-gram filtering, and enterprise DLP guards).
 
-Developed by YecoAI. 
-Original author: Marco (HighMark / YecoAI) 
+Developed by YecoAI.
+Original author: Marco (HighMark / YecoAI)
 
-Any use, modification, or redistribution of this software 
-must retain this notice and credit YecoAI. 
+Any use, modification, or redistribution of this software
+must retain this notice and credit YecoAI.
